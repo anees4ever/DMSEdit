@@ -1,4 +1,4 @@
-package com.bangalorecomputers.dms;
+package com.anees4ever.dmsedit;
 
 import android.location.Location;
 

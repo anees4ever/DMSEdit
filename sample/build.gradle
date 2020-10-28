@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
     buildToolsVersion '28.0.3'
     defaultConfig {
-        applicationId "com.anees4ever.dms.sample"
+        applicationId "com.anees4ever.dmsedit.sample"
 		
         minSdkVersion 17
         targetSdkVersion 28
