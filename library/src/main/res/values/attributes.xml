@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <declare-styleable name="DMSEdit">
+        <attr name="viewSize" format="integer" />
+        <attr name="directions" format="string" />
+        <attr name="label" format="reference" />
+        <attr name="nextFocus" format="reference" />
+        <attr name="previousFocus" format="reference" />
+        <attr name="degreeSize" format="integer" />
+        <attr name="minuteSize" format="integer" />
+        <attr name="secondSize" format="integer" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <style name="AppTheme.BlueButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/button_blue</item>
+        <item name="colorAccent">@color/dark_blue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:drawablePadding">6dp</item>
+        <item name="android:paddingStart">6dp</item>
+        <item name="android:paddingEnd">6dp</item>
+    </style>
+
+    <style name="AppTheme.BlueButton.NoPadding" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/button_blue</item>
+        <item name="colorAccent">@color/dark_blue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:drawablePadding">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+    </style>
+
+    <style name="AppTheme.WhiteButton.NoPadding" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">?selectableItemBackground</item>
+        <item name="colorAccent">@color/dark_blue</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:drawableTint">@color/dark_blue</item>
+        <item name="android:drawablePadding">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+    </style>
+</resources>

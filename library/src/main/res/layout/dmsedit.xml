@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent" >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:background="@drawable/view_bg">
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            style="@style/AppTheme.BlueButton.NoPadding"
+            android:text="N"
+            android:drawableTop="@drawable/arrow_top"
+            android:drawableBottom="@drawable/arrow_bottom"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="999"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:gravity="end|center"
+            android:selectAllOnFocus="true"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="°"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+        <EditText
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:text="99"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:gravity="end|center"
+            android:selectAllOnFocus="true"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="'"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+        <EditText
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:gravity="end|center"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:selectAllOnFocus="true"
+            android:text="99.99"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="''"
+            android:layout_marginEnd="5dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+    </LinearLayout>
+</RelativeLayout>
